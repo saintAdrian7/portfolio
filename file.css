@@ -1,0 +1,157 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styling for the body */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+    color: #fff;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: transparent;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 48px; /* Increased font size */
+  }
+  
+  /* Navigation styling */
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px; /* Increased font size */
+    text-transform: uppercase; /* Uppercase text */
+    transition: color 0.3s; /* Smooth color transition */
+  }
+  
+  nav ul li a:hover {
+    color: #ffd700; /* Change color on hover */
+  }
+  
+  /* Section styling */
+  section {
+    padding: 40px 20px;
+    text-align: center; /* Center align text */
+  }
+  
+  section h2 {
+    margin-bottom: 20px;
+    font-size: 36px; /* Increased font size */
+  }
+  
+  /* About section */
+  #about p {
+    font-size: 24px; /* Increased font size */
+  }
+  
+  /* Services section */
+  #services ul {
+    list-style: none;
+  }
+  
+  #services ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Portfolio section */
+  #portfolio ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #portfolio ul li {
+    width: 30%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+  }
+  
+  #portfolio ul li:last-child {
+    margin-right: 0;
+  }
+  
+  #portfolio ul li a {
+    text-decoration: underline; /* Underline links */
+    color: #ffd700; /* Change link color */
+    transition: color 0.3s; /* Smooth color transition */
+  }
+  
+  #portfolio ul li a:hover {
+    color: #fff; /* Change link color on hover */
+  }
+  
+  #portfolio ul li img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Contact section */
+  #contact form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #contact form label {
+    margin-bottom: 10px;
+  }
+  
+  #contact form input,
+  #contact form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #contact form .submit-btn {
+    padding: 10px 20px;
+    background-color: #ffd700;
+    color: #333;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: transparent;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  .social-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .socicon {
+    width: 30px;
+  }
+  
